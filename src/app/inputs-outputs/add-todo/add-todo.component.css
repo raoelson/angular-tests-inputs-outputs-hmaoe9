@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  padding: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+input {
+  flex: 1;
+  margin-right: 32px;
+}
+
+.error {
+  margin-top: 8px;
+  color: red;
+  font-size: 12px;
+}
